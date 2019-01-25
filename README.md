@@ -1,8 +1,8 @@
 # scraping trip advisor
 
-this is a script to scrape reviews of trip adviser and then present in a dashboar in data studio
+This is a script to scrape reviews of trip adviser and then present in a dashboar in data studio
 
-estructure:
+Structure:
 
 1-code: the code is presented in python, selenium was used but we can automate without using UI since we do not need user control (the chromedriver in the folder works only for mac!)
 
