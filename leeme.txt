@@ -1,0 +1,8 @@
+este es un script para scrapear reviews de trip adviser y presentar luego en un dashboar en data studio
+
+estructura:
+
+1-codigo: se presenta el codigo en python,se uso selenium pero podemos autoamtizar sin usar UI ya que no necesitamos user control (el cromedriver en la carpeta funciona solo para mac!)
+2-fuente: el resultado del scrap se guarda en un txt y luego e importa en un spreadshet de google para conectar a una tabla de bigquery
+3-bigquery: aca tenemos el script para crear una vista en la cual se presentan algunas logicas como creacion de date y campo pais, el cual surge de aplcar logicas en el excel para determinar a que pais corresponde cada ciudad.
+4-dashboard: imagenes del dashboard final, los links si funcionan serian los siguientes: https://datastudio.google.com/u/0/reporting/18J3VUB-9Wc8Pv0NEdj3WhA6BIz0lNAqD/page/xtVg
